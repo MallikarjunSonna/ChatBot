@@ -1,0 +1,148 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 833-882-091
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:13:39] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:13:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:14:02] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:14:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:14:21] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:14:23] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:14:26] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:14:39] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:14:43] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 833-882-091
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 833-882-091
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:19:03] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:19:09] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:19:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 833-882-091
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:27:46] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:27:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:27:51] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:27:56] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:29:58] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:32:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 833-882-091
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:42:24] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:42:44] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:42:49] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: hello flask, Predicted Intent: create_account
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:42:56] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:43:02] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: where is my order, Predicted Intent: track_order
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:43:18] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:43:24] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:43:45] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:43:50] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: hello flask, Predicted Intent: create_account
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:43:59] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 08:44:06] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 09:49:55] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2024 09:50:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 833-882-091
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 833-882-091
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 833-882-091
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:03:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:03:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:05:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Aidmin\\anaconda3\\Lib\\site-packages\\flask\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Aidmin\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Aidmin\\anaconda3\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Aidmin\\anaconda3\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Aidmin\\anaconda3\\Lib\\site-packages\\flask\\templating.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 833-882-091
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 833-882-091
+INFO:werkzeug: * Detected change in 'C:\\Users\\Aidmin\\Desktop\\ChatbotProject\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Aidmin\\Desktop\\ChatbotProject\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Aidmin\\Desktop\\ChatbotProject\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 833-882-091
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:12:19] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:12:29] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:12:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Aidmin\\Desktop\\ChatbotProject\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Aidmin\\Desktop\\ChatbotProject\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Aidmin\\Desktop\\ChatbotProject\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 833-882-091
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 833-882-091
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:14:11] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:14:17] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:14:19] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:14:24] "POST /process HTTP/1.1" 200 -
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:14:38] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:14:41] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:14:56] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:14:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:15:39] "GET / HTTP/1.1" 200 -
+INFO:root:User Query: how can I cancel my order?, Predicted Intent: cancel_order
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2024 07:15:46] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Aidmin\\Desktop\\ChatbotProject\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Aidmin\\Desktop\\ChatbotProject\\application.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)

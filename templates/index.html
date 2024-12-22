@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .chatbot-container {
+            margin-top: 50px;
+        }
+        .btn-primary {
+            background-color: #4caf50;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container chatbot-container">
+        <h1 class="text-center">Welcome to the Chatbot!</h1>
+        <p class="text-center">Ask me anything about your orders, tracking, or changes!</p>
+        <form action="{{ url_for('process_input') }}" method="POST" class="mt-4">
+            <div class="mb-3">
+                <label for="user_input" class="form-label">Enter your query:</label>
+                <input type="text" class="form-control" id="user_input" name="user_input" placeholder="Type your question here..." required>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+        <div class="text-center mt-3">
+            <a href="{{ url_for('about') }}" class="btn btn-secondary">Go to About Page</a>
+        </div>
+    </div>
+</body>
+</html>
