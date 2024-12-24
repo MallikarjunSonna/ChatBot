@@ -1,59 +1,36 @@
-from flask import Flask, render_template, request
+from flask import Flask, request, jsonify, render_template
 import joblib
-import logging
 
 app = Flask(__name__)
 
-# Load the trained model and vectorizer
+# Load the model and vectorizer
 model = joblib.load('chatbot_model.pkl')
-tfidf = joblib.load('tfidf_vectorizer.pkl')
+vectorizer = joblib.load('tfidf_vectorizer.pkl')
 
-# Set up logging
-logging.basicConfig(filename='chatbot_logs.log', level=logging.INFO)
+# Map intents to conversational responses
+responses = {
+    "track_order": "You can track your order in the 'My Orders' section of your account.",
+    "cancel_order": "To cancel your order, go to 'My Orders' and select 'Cancel' for the specific order.",
+    "change_order": "To change your order, please contact customer support.",
+    "check_refund_policy": "Our refund policy can be found in the 'Help Center' under 'Refunds'.",
+    "get_invoice": "You can download your invoice from the 'Order Details' section in your account.",
+    "place_order": "To place an order, add items to your cart and proceed to checkout.",
+    "recover_password": "To recover your password, click on 'Forgot Password' on the login page.",
+    "contact_customer_service": "You can contact customer service via the 'Help Center' or call our hotline.",
+    "payment_issue": "For payment issues, please check your payment details or contact support."
+}
 
-@app.route("/")
+@app.route('/')
 def home():
-    return render_template("index.html")
+    return render_template('chat.html')
 
-@app.route("/about")
-def about():
-    return render_template("about.html")
+@app.route('/get_response', methods=['POST'])
+def get_response():
+    user_query = request.json['query']
+    query_vector = vectorizer.transform([user_query]).toarray()
+    predicted_intent = model.predict(query_vector)[0]
+    bot_response = responses.get(predicted_intent, "I'm sorry, I didn't understand that. Could you please rephrase?")
+    return jsonify({'response': bot_response})
 
-@app.route("/process", methods=["POST"])
-def process_input():
-    try:
-        # Get the user input from the form
-        user_input = request.form.get("user_input")
-
-        # Handle empty input
-        if not user_input.strip():
-            return render_template("response.html", user_input="No input provided.", chatbot_response="Please provide a valid query.")
-
-        # Preprocess and vectorize the input
-        query_vector = tfidf.transform([user_input]).toarray()
-        predicted_intent = model.predict(query_vector)[0]
-
-        # Add intent-based responses
-        intent_responses = {
-            "cancel_order": "Sure! You can cancel your order by going to your account settings.",
-            "change_order": "You can change your order by contacting customer service.",
-            "track_order": "You can track your order on the orders page.",
-            "default": "I'm not sure how to help with that. Please contact support."
-        }
-
-        # Get chatbot response based on intent
-        chatbot_response = intent_responses.get(predicted_intent, intent_responses["default"])
-
-        # Log the input and intent
-        logging.info(f"User Query: {user_input}, Predicted Intent: {predicted_intent}")
-
-        # Render the response page
-        return render_template("response.html", user_input=user_input, chatbot_response=chatbot_response)
-
-    except Exception as e:
-        # Handle errors gracefully
-        logging.error(f"Error occurred: {str(e)}")
-        return render_template("response.html", user_input="An error occurred.", chatbot_response="Something went wrong. Please try again.")
-        
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True)
